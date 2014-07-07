@@ -49,6 +49,7 @@ html{
 }
 a{
 	text-decoration: none;
+	color: inherit;
 }
 
 
@@ -80,18 +81,90 @@ a{
 .mainNav{
 	width: 100%;
 	height: 75px;
-	background-color: green;
+	font-size: 18px;
+	background-color: #C9C9C9;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+   	letter-spacing: 3px;
 }
 .mainNav div, .mainNav ul, .mainNav ul li{
 	display: inline-block;
 }
 .mainNav ul{
 	float: right;
+	margin-right: 130px;
+	margin-top: 27px;
 }
 .homeSec2{
 	height: 1600px;
 	width: 100%;
+	background-color: #FF636B;
 }
+.mainNav ul li:first-child{
+	margin-right: 80px;
+}
+.navArrow{
+	display: none;
+}
+.mainNav div{
+	margin-left: 90px;
+	margin-top: 27px;
+}
+.homeSec3{
+	height: 700px;
+	width: 100%;
+	background-color: #FFFF7A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+	.navArrow img{
+		width: 100%;
+	}
+	.navArrow{
+		display: inline-block;
+		width: 35px;
+		height: 30px;
+	   -webkit-transition: -webkit-transform .6s ease;
+	  -moz-transition: -webkit-transform .6s ease;
+	  -o-transition: -webkit-transform .6s ease;
+	  transition: -webkit-transform .6s ease;
+	}
+	.navArrowClicked{
+		 -moz-transform: rotate(180deg);
+	   -webkit-transform: rotate(180deg);
+	   -o-transform: rotate(180deg);
+	   transform: rotate(180deg);
+	}
+	.mainNav li:nth-child(1), .mainNav li:nth-child(2){
+		display: none;
+	}
+	.mainNav li:nth-child(3){
+		margin-top: -6px;
+		width: 35px;
+		height: 30px;
+	}
+	.mainNav ul{
+		margin-right: 30px;
+	}
+}
+
+
+
+
 
 
 
