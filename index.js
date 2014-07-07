@@ -10,15 +10,17 @@ $(document).ready(function(){
 	homeResize();
 
 	$(window).scroll(function () {
-		if ($(window).scrollTop() > winHeight-75) {
+		if ($(window).scrollTop() > winHeight-76) {
 	        $('.mainNav').css('position', 'fixed');
 	        $('.mainNav').css('margin-top',-(winHeight-75));
 	        $('.homeSec2').css('margin-top','75px')
+	        $('.navArrow').addClass('navArrowClicked');
 	    }
 	    else{
 	    	$('.mainNav').css('position', 'static');
 	    	$('.mainNav').css('margin-top','0');
 	    	$('.homeSec2').css('margin-top','0px')
+	    	$('.navArrow').removeClass('navArrowClicked');
 	    }
 	});
 
@@ -66,14 +68,14 @@ $(document).ready(function(){
 
     $(".navArrow").on({click:function(e){    
 	    	if($(this).hasClass('navArrowClicked')){
-	    		$(this).removeClass('navArrowClicked');
+	    		// $(this).removeClass('navArrowClicked');
 	    		e.preventDefault();
 	            $('html, body').animate({
 	                scrollTop: $(".homeSec1").offset().top
 	            }, 1700, 'easeInOutCubic');	
 	    	}
 	    	else{
-	    		$(this).addClass('navArrowClicked');  
+	    		// $(this).addClass('navArrowClicked');  
 	    		e.preventDefault();
 	            $('html, body').animate({
 	                scrollTop: $(".homeSec2").offset().top -75
