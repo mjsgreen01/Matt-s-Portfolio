@@ -9,6 +9,15 @@ $(document).ready(function(){
 	}
 	homeResize();
 
+
+	//fade in and shrink name
+	setTimeout(function(){
+		$('.fadeInName').addClass('fadeInNameSmall');
+	},200)
+	
+
+
+
 	$(window).scroll(function () {
 		if ($(window).scrollTop() > winHeight-76) {
 	        $('.mainNav').css('position', 'fixed');

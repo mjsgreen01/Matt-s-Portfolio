@@ -71,12 +71,13 @@ a{
 .homeSec1{
 	width:100%;
 	height:600px;
-	background: url(http://i42.tinypic.com/ixb28o.jpg) no-repeat center center;
+	background: url(firstImg.jpg) no-repeat center center;
 	-webkit-background-size: cover;  
   	-moz-background-size: cover;  
   	-o-background-size: cover;  
   	background-size: cover;
   	overflow: hidden;
+  	position: relative;
 }
 .mainNav{
 	width: 100%;
@@ -116,7 +117,30 @@ a{
 	background-color: #FFFF7A
 }
 
+.fadeInName{
+	width: 220%;
+	position: absolute;
+	top: 40%;
+	left: -9999px;
+	right: -9999px;
+	margin: 0 auto;
+	font-size: 200px;
+	letter-spacing: 15px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: white;
+	opacity: 0;
+	text-align: center;
+	white-space: nowrap;
+	   -webkit-transition: font-size .8s ease-out, opacity 1.5s ease-out;
+	  -moz-transition: font-size .8s ease-out, opacity 1.5s ease-out;
+	  -o-transition: font-size .8s ease-out, opacity 1.5s ease-out;
+	  transition: font-size .8s ease-out, opacity 1.5s ease-out;
 
+}
+.fadeInNameSmall{
+	font-size: 120px;
+	opacity: 1;
+}
 
 
 
@@ -160,6 +184,8 @@ a{
 	.mainNav ul{
 		margin-right: 30px;
 	}
+	.mainNav div{
+	margin-left: 20px;
 }
 
 
