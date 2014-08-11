@@ -125,8 +125,9 @@ a{
 	right: -9999px;
 	margin: 0 auto;
 	font-size: 200px;
-	letter-spacing: 15px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	letter-spacing: 36px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 100;
 	color: white;
 	opacity: 0;
 	text-align: center;
