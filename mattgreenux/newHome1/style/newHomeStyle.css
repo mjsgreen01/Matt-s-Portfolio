@@ -75,12 +75,24 @@ html, body{
 
 
 .mainContain{
-	width: 100%;
+	width: 320px;
 	height: 100%;
+	margin: 0 auto;
 	background-color: white;
 }
-
-
+.headContain{
+	height: 350px;
+}
+.previewContain{
+	height: 350px;
+}
+.previewContent{
+	width: 85%;
+	margin: 0 auto;
+}
+.rowContain{
+	border: 1px solid;
+}
 
 
 
