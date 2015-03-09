@@ -13,7 +13,7 @@ $(document).ready(function(){
 	//fade in and shrink name
 	setTimeout(function(){
 		$('.fadeInName').addClass('fadeInNameSmall');
-	},200)
+	},500)
 	
 
 
