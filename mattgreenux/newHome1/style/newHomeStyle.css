@@ -65,7 +65,10 @@ a:active {color:inherit;}  /* selected link */
 
 
 
-
+@font-face {
+  font-family: 'Avenir';
+  src: url('Avenir.ttc');
+}
 
 
 
@@ -81,10 +84,23 @@ html, body{
 	background-color: white;
 }
 .headContain{
-	height: 350px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	height: auto;
+	font-family: 'Avenir';
+	font-weight: 700;
+}
+.headContain .titleContain{
+	padding-top: 25px;
+padding-bottom: 20px;
+}
+.headContain .titleContain h1{
+	font-size: 16px;
+letter-spacing: 3px;
 }
 .previewContain{
-	height: 350px;
+	height: 255px;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,24 +109,25 @@ html, body{
 .previewContent{
 	width: 85%;
 	margin: 0 auto;
+	position: relative;
+	top: 40%;
 }
 .rowContain{
-	border: 1px solid;
 }
 .psalContain{
-	background-image: url('psalBG2.jpg');
+	background-image: url('psalBG3.jpg');
 }
 .erbContain{
-	background-image: url('erbBG1.jpg');
+	background-image: url('erbBG2.jpg');
 }
 .macysContain{
-	background-image: url('macysBG1.jpg');
+	background-image: url('macysBG3.jpg');
 }
 .moodsnapContain{
-	background-image: url('moodsnapBG1.jpeg');
+	background-image: url('MoodsnapBG3.png');
 }
 .compContain{
-	background-image: url('comptrollerBG1.png');
+	background-image: url('comptrollerBG2.jpg');
 }
 .opacityLayer{
 	/*background-color: rgba(255, 255, 255, 0.65);*/
@@ -119,9 +136,21 @@ html, body{
 }
 .logo{
 	width: 100%;
+	display: block;
+margin: 0 auto;
 }
-
-
+.psalLogo, .compLogo{
+	width: 150px;
+}
+.erbLogo, .macysLogo, .moodsnapLogo{
+	width: 200px;
+}
+.erbContain .previewContent{
+	top: 28%;
+}
+.moodsnapContain .previewContent{
+	top: 44%;
+}
 
 
 
