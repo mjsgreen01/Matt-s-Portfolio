@@ -1,3 +1,10 @@
+/*Museo Sans*/
+@import url("//hello.myfonts.net/count/2de541");
+@font-face {font-family: 'MuseoSans-300';src: url('webfonts/2DE541_0_0.eot');src: url('webfonts/2DE541_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DE541_0_0.woff2') format('woff2'),url('webfonts/2DE541_0_0.woff') format('woff'),url('webfonts/2DE541_0_0.ttf') format('truetype');}
+@font-face {font-family: 'MuseoSans-500';src: url('webfonts/2DE541_1_0.eot');src: url('webfonts/2DE541_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DE541_1_0.woff2') format('woff2'),url('webfonts/2DE541_1_0.woff') format('woff'),url('webfonts/2DE541_1_0.ttf') format('truetype');}
+@font-face {font-family: 'MuseoSans-900';src: url('webfonts/2DE541_2_0.eot');src: url('webfonts/2DE541_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DE541_2_0.woff2') format('woff2'),url('webfonts/2DE541_2_0.woff') format('woff'),url('webfonts/2DE541_2_0.ttf') format('truetype');}
+
+
 /*CSS Reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -69,6 +76,10 @@ a:active {color:inherit;}  /* selected link */
   font-family: 'Avenir';
   src: url('Avenir.ttc');
 }
+@font-face {
+  font-family: 'Futura';
+  src: url('Futura.ttc');
+}
 
 
 
@@ -113,6 +124,7 @@ letter-spacing: 3px;
 	top: 40%;
 }
 .rowContain{
+	/*border: 1px solid;*/
 }
 .psalContain{
 	background-image: url('psalBG3.jpg');
@@ -151,10 +163,60 @@ margin: 0 auto;
 .moodsnapContain .previewContent{
 	top: 44%;
 }
-
-
-
-
-
-
+.sectionContent{
+	font-family: "MuseoSans-300",sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+}
+.sectionContent p{
+	margin-bottom: 30px;
+}
+.rowContain img{
+	max-width: 100%;
+}
+h2{
+	font-family: "MuseoSans-900", sans-serif;
+	font-size: 32px;
+	line-height: 38px;
+	margin-top: 20px;
+}
+h3{
+	font-family: "MuseoSans-900", sans-serif;
+	font-size: 27px;
+	line-height: 32px;
+}
+h4{
+	font-family: "MuseoSans-500", sans-serif;
+	font-size: 14px;
+	color: #bbb;
+	line-height: 24px;
+}
+.titleContain, .sectionContent{
+	padding: 15px;
+}
+.imgContain{
+	text-align: center;
+}
+.psalPage .specsContain .imgContain{
+	padding: 20px;
+}
+.mgLogo{
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+	background-color: #fff;
+	float: left;
+	position: relative;
+	top: 26px;
+	left: 20px;
+	font-family: "Futura";
+}
+.footContain{
+	padding-bottom: 50px;
+}
+.footContain h3{
+	font-size: 16px;
+}
 
