@@ -94,6 +94,10 @@ html, body{
 	margin: 0 auto;
 	background-color: white;
 }
+.psalPage .mainContain{
+	width: 100%;
+	max-width: 400px;
+}
 .headContain{
 	background-color: #000;
 	color: #fff;
