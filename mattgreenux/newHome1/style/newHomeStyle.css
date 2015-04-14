@@ -111,8 +111,8 @@ padding-bottom: 20px;
 	font-size: 16px;
 letter-spacing: 3px;
 }
-.previewContain{
-	height: 255px;
+.previewContain .previewImageContain{
+	height: 100%;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -127,19 +127,19 @@ letter-spacing: 3px;
 .rowContain{
 	/*border: 1px solid;*/
 }
-.psalContain{
+.psalContain .previewImageContain{
 	background-image: url('psalBG3.jpg');
 }
-.erbContain{
+.erbContain .previewImageContain{
 	background-image: url('erbBG2.jpg');
 }
-.macysContain{
+.macysContain .previewImageContain{
 	background-image: url('macysBG3.jpg');
 }
-.moodsnapContain{
+.moodsnapContain .previewImageContain{
 	background-image: url('MoodsnapBG3.png');
 }
-.compContain{
+.compContain .previewImageContain{
 	background-image: url('comptrollerBG2.jpg');
 }
 .opacityLayer{
@@ -220,10 +220,37 @@ h4{
 .footContain h3{
 	font-size: 16px;
 }
+.previewContain .titleContain{
+	display: none;
+}
 
 
 @media screen and (min-width: 370px) {
 	.previewContain {
 		height: 305px;
+	}
+}
+@media screen and (min-width: 800px) {
+	.previewContain .titleContain{
+		display: inline-block;
+		width: 50%;
+		box-sizing: border-box;
+		height: 100%;
+		vertical-align: top;
+	}
+	.titleContain .projectTitles{
+		position: relative;
+		top: 30%;
+	}
+	.previewContain .previewImageContain{
+		display: inline-block;
+		width: 49%;
+		height: 100%;
+	}
+	.mainContain{
+		max-width: 800px;
+	}
+	.previewContain{
+		height: 475px;
 	}
 }
