@@ -214,6 +214,9 @@ h4{
 	left: 20px;
 	font-family: "Futura";
 }
+.homePage .mgLogo{
+	float: none;
+}
 .footContain{
 	padding-bottom: 50px;
 }
@@ -240,7 +243,8 @@ h4{
 	}
 	.titleContain .projectTitles{
 		position: relative;
-		top: 30%;
+		top: 33%;
+		left: 25%;
 	}
 	.previewContain .previewImageContain{
 		display: inline-block;
@@ -250,7 +254,24 @@ h4{
 	.mainContain{
 		max-width: 800px;
 	}
+	.homePage .mainContain{
+		max-width: 100%;
+	}
 	.previewContain{
 		height: 475px;
+	}
+	.psalLogo, .compLogo{
+		width: 50%;
+	}
+	.erbLogo, .macysLogo, .moodsnapLogo{
+		width: 52%;
+	}
+	h2{
+		font-size: 46px;
+		line-height: 53px;
+	}
+	h4{
+		font-size: 21px;
+		line-height: 35px;
 	}
 }
