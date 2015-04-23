@@ -217,6 +217,13 @@ h4{
 .homePage .mgLogo{
 	float: none;
 }
+.homePage .projectTitles p{
+	margin-top: 40px;
+	font-family: "MuseoSans-300", sans-serif;
+	font-size: 14px;
+	color: #bbb;
+	text-decoration: underline;
+}
 .footContain{
 	padding-bottom: 50px;
 }
